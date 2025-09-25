@@ -1,0 +1,37 @@
+#places-body
+{
+    margin: 0% 5%
+}
+#places-body #menulink {
+  background-color: #1E1E1E;
+  margin: 0;
+  text-align: center;
+}
+#places-body #menulink a {
+  color: white;
+  font-size: 0.7em;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 200;
+  padding: 0.1em 0;
+} 
+#navlinks
+{
+    list-style: none;
+}
+#places-nav-links ul
+{
+    display: none;
+}
+#places-grid{
+}
+#places-grids
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+footer
+{
+    align-content: center;
+    background-color: #1e1e1e
+}
