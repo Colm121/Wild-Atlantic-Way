@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @charset "utf-8";
 
 .intro html {
@@ -117,12 +118,16 @@
 }
 
 
-.intro #menulink {
+.intro #menulink, #places-body
+{
+    margin: 0% 5%
+}
+#places-body #menulink {
   background-color: #1E1E1E;
   margin: 0;
   text-align: center;
 }
-.intro #menulink a {
+.intro #menulink a, #places-body #menulink a {
   color: white;
   font-size: 0.7em;
   text-transform: uppercase;
@@ -242,6 +247,76 @@
   }
 }
 
+ 
+#navlinks
+{
+    list-style: none;
+    text-align: center;
+}
+#places-nav-links li
+{
+    display: inline;
+    padding: 5%;
+    
+}
+#places-nav-links li:hover{
+    background: 
+}    
 
+#places-nav-links a
+{
+    text-decoration: none;
+    color: #111111
+    
+}
+#hero img
+{
+    max-width: 100%;
+    display: block;
+}
 
+#places-ul
+{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#places-grids
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#places-grid
+{
+    margin: 2%;
+    border: solid #0c325b;
+    padding-left: 1%;
+    
+}
+#places-h1, #places-h2, #places-h3 {
+  color: #0c325b;
+  font-weight: 400;
+}
+#places-h1 {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+#places-h2 {
+  text-align: center;
+  margin: 20px auto 10px auto;
+}
 
+footer
+{
+    padding: 5%;
+    text-align: center;
+    background-color: #1e1e1e;
+    color: #eeeeee
+}
+@media (min-width: 700px) {
+  #places-body #menulink {
+    display: none;  
+  }
